@@ -34,6 +34,29 @@ class RsiBollingerBandsStrategy(BaseStrategy):
                 self.close()
 
 
+class RSIStrategy(BaseStrategy):
+    """
+    RSI 策略 / RSI strategy.
+
+    當 RSI 低於超賣門檻時買入；當 RSI 高於超買門檻時賣出。
+    Buy when RSI is below the oversold threshold; sell when RSI is above the overbought threshold.
+    """
+
+    params = dict(rsi_period=14, oversold=30, overbought=70)
+
+    def __init__(self):
+        super().__init__()
+        self.rsi = bt.indicators.RSI(self.data.close, period=self.params.rsi_period)
+
+    def next(self):
+        if self.position.size == 0:
+            if self.rsi[0] < self.params.oversold:
+                self.buy()
+        else:
+            if self.rsi[0] > self.params.overbought:
+                self.close()
+
+
 class TripleRsiStrategy(BaseStrategy):
     params = dict(
         rsi_short=20,

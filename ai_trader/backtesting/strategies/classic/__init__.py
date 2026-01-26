@@ -15,6 +15,7 @@ from ai_trader.backtesting.strategies.classic.roc import (
     ROCStochStrategy,
 )
 from ai_trader.backtesting.strategies.classic.rsi import (
+    RSIStrategy,
     RsiBollingerBandsStrategy,
     TripleRsiStrategy,
 )
@@ -36,6 +37,7 @@ __all__ = [
     "ROCMAStrategy",
     "ROCStochStrategy",
     "RsiBollingerBandsStrategy",
+    "RSIStrategy",
     "RSRSStrategy",
     "TripleRsiStrategy",
     "TurtleTradingStrategy",
