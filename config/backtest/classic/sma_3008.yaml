@@ -1,0 +1,28 @@
+# SMA backtest for TW stock 3008
+
+broker:
+  cash: 1000000
+  commission: 0.001425  # Taiwan stock commission rate
+
+data:
+  file: "data/tw_stock/3008_2020-01-01_to_2026-01-23.csv"
+  start_date: "2020-01-01"
+  end_date: "2026-01-23"
+  date_col: "date"
+
+strategy:
+  class: "CrossSMAStrategy"
+  params:
+    fast: 10
+    slow: 30
+
+sizer:
+  type: "percent"
+  params:
+    percents: 95
+
+analyzers:
+  - sharpe
+  - drawdown
+  - returns
+  - trades
