@@ -1,0 +1,156 @@
+strategy,params,return_pct,sharpe,max_drawdown_pct,trades_total,win_rate_pct
+CrossSMAStrategy,"{'fast': 3, 'slow': 20}",5.304671316660081,0.25893233869539856,43.34344681566815,14,7.142857142857142
+CrossSMAStrategy,"{'fast': 3, 'slow': 30}",12.25724165879003,0.316621169617506,39.60278966882445,9,0.0
+CrossSMAStrategy,"{'fast': 3, 'slow': 40}",35.698617901081505,0.5572092042723619,23.80909428117437,5,0.0
+CrossSMAStrategy,"{'fast': 3, 'slow': 60}",21.08379741015711,0.39691652368263897,28.761314955905174,7,0.0
+CrossSMAStrategy,"{'fast': 5, 'slow': 20}",-10.264623664192795,0.146444046558277,49.872647392301396,13,7.6923076923076925
+CrossSMAStrategy,"{'fast': 5, 'slow': 30}",6.2255621458387145,0.26794616612978034,41.38049994773051,9,0.0
+CrossSMAStrategy,"{'fast': 5, 'slow': 40}",28.345867252056834,0.4727937694917827,28.35030567437517,4,0.0
+CrossSMAStrategy,"{'fast': 5, 'slow': 60}",25.683073052452077,0.44140128476510754,28.423343729141305,4,0.0
+CrossSMAStrategy,"{'fast': 7, 'slow': 20}",5.127594397061919,0.25752899038199417,40.973852519321426,7,14.285714285714285
+CrossSMAStrategy,"{'fast': 7, 'slow': 30}",13.329144738097343,0.3324471159758424,37.460459877088084,6,16.666666666666664
+CrossSMAStrategy,"{'fast': 7, 'slow': 40}",26.973289857601813,0.4580390465778131,30.17860049978856,4,0.0
+CrossSMAStrategy,"{'fast': 7, 'slow': 60}",-18.77251055172492,-1.106538760198818,22.497475259550164,2,0.0
+CrossSMAStrategy,"{'fast': 10, 'slow': 20}",-17.329632548681662,0.10177154717098869,53.669587304851504,8,25.0
+CrossSMAStrategy,"{'fast': 10, 'slow': 30}",-11.377417846038151,0.16169741985079567,50.24094640099079,6,0.0
+CrossSMAStrategy,"{'fast': 10, 'slow': 40}",27.655865697304137,0.46533935829486966,29.789774115162917,4,0.0
+CrossSMAStrategy,"{'fast': 10, 'slow': 60}",-18.117052385336564,-1.110393233814279,24.233772629873503,2,0.0
+CrossSMAStrategy,"{'fast': 12, 'slow': 20}",-19.893250813747386,0.08641045938378158,55.24825578741401,11,36.36363636363637
+CrossSMAStrategy,"{'fast': 12, 'slow': 30}",-15.4198359107243,0.13775535991868118,53.325293525439015,6,16.666666666666664
+CrossSMAStrategy,"{'fast': 12, 'slow': 40}",24.138995024470923,0.4284879311435061,30.299493007114517,4,0.0
+CrossSMAStrategy,"{'fast': 12, 'slow': 60}",21.85894592328563,0.4303263463477965,24.738229736249654,3,33.33333333333333
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 20, 'signalperiod': 6}",-13.080037419760338,-1.152904761341015,13.85979270876307,2,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 20, 'signalperiod': 9}",-13.769023363337517,-1.145253584602475,13.979451131008286,2,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 20, 'signalperiod': 12}",-14.718459777226744,-1.1358837833762008,18.326442331007748,3,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 26, 'signalperiod': 6}",-13.080037419760338,-1.152904761341015,13.85979270876307,2,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 26, 'signalperiod': 9}",-12.128108446798336,-1.1649061771481748,14.027406231856276,2,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 26, 'signalperiod': 12}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 30, 'signalperiod': 6}",-13.769023363337517,-1.145253584602475,13.979451131008286,2,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 30, 'signalperiod': 9}",-10.701936474790996,-1.1868820661299113,12.632060104378587,2,0.0
+MACDStrategy,"{'fastperiod': 8, 'slowperiod': 30, 'signalperiod': 12}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 20, 'signalperiod': 6}",-13.769023363337517,-1.145253584602475,13.979451131008286,2,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 20, 'signalperiod': 9}",-10.701936474790996,-1.1868820661299113,12.632060104378587,2,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 20, 'signalperiod': 12}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 26, 'signalperiod': 6}",-12.128108446798336,-1.1649061771481748,14.027406231856276,2,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 26, 'signalperiod': 9}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 26, 'signalperiod': 12}",-6.845590384615385,-1.2921588771210666,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 30, 'signalperiod': 6}",-10.701936474790996,-1.1868820661299113,12.632060104378587,2,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 30, 'signalperiod': 9}",-6.845590384615385,-1.2921588771210666,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 12, 'slowperiod': 30, 'signalperiod': 12}",-6.845590384615385,-1.2921588771210666,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 20, 'signalperiod': 6}",-12.128108446798336,-1.1649061771481748,14.027406231856276,2,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 20, 'signalperiod': 9}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 20, 'signalperiod': 12}",-6.845590384615385,-1.2921588771210666,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 26, 'signalperiod': 6}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 26, 'signalperiod': 9}",-6.845590384615385,-1.2921588771210666,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 26, 'signalperiod': 12}",-7.210454326923077,-1.2773750320464845,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 30, 'signalperiod': 6}",-8.669910096153844,-1.2306828995709245,8.669910096153838,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 30, 'signalperiod': 9}",-6.845590384615385,-1.2921588771210666,8.542865865384623,1,0.0
+MACDStrategy,"{'fastperiod': 15, 'slowperiod': 30, 'signalperiod': 12}",0.11377794715445866,-16.578098832148132,5.891116118893559,1,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 25, 'overbought': 65}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 25, 'overbought': 70}",19.279425116875903,2.3971727475583506,11.712059888253298,2,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 25, 'overbought': 75}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 30, 'overbought': 65}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 30, 'overbought': 70}",19.279425116875903,2.3971727475583506,11.712059888253298,2,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 30, 'overbought': 75}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 35, 'overbought': 65}",-3.5877981370367906,-0.13748979226081492,27.377459229390695,3,66.66666666666666
+RSIStrategy,"{'rsi_period': 10, 'oversold': 35, 'overbought': 70}",-8.929870037297361,-0.2653637689332386,27.377459229390695,2,50.0
+RSIStrategy,"{'rsi_period': 10, 'oversold': 35, 'overbought': 75}",-5.374880376344082,0.03751898531959323,31.122978942652328,1,0.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 25, 'overbought': 65}",51.96499675671671,18.159344946656788,11.882418501540275,2,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 25, 'overbought': 70}",27.16105944444447,0.7997926074055786,23.42533933160797,1,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 25, 'overbought': 75}",27.16105944444447,0.7997926074055786,23.42533933160797,1,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 30, 'overbought': 65}",31.370007059705117,1.5260401216936772,11.712059888253298,2,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 30, 'overbought': 70}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 30, 'overbought': 75}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 35, 'overbought': 65}",31.370007059705117,1.5260401216936772,11.712059888253298,2,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 35, 'overbought': 70}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 14, 'oversold': 35, 'overbought': 75}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 20, 'oversold': 25, 'overbought': 65}",0.0,,0.0,0,
+RSIStrategy,"{'rsi_period': 20, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RSIStrategy,"{'rsi_period': 20, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RSIStrategy,"{'rsi_period': 20, 'oversold': 30, 'overbought': 65}",27.16105944444447,0.7997926074055786,23.42533933160797,1,100.0
+RSIStrategy,"{'rsi_period': 20, 'oversold': 30, 'overbought': 70}",27.16105944444447,0.7997926074055786,23.42533933160797,1,100.0
+RSIStrategy,"{'rsi_period': 20, 'oversold': 30, 'overbought': 75}",46.55560499999998,0.8759699966828922,23.42533933160797,1,100.0
+RSIStrategy,"{'rsi_period': 20, 'oversold': 35, 'overbought': 65}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 20, 'oversold': 35, 'overbought': 70}",16.0730405,0.42950166373266135,23.089489493985077,1,100.0
+RSIStrategy,"{'rsi_period': 20, 'oversold': 35, 'overbought': 75}",33.5281315,0.6166348228673576,23.089489493985077,1,100.0
+BBandsStrategy,"{'period': 15, 'devfactor': 1.5}",-11.844505455945843,-1.1688546649278648,27.377459229390663,5,40.0
+BBandsStrategy,"{'period': 15, 'devfactor': 2.0}",21.108764537399782,3.416444228619291,16.92436783548602,3,100.0
+BBandsStrategy,"{'period': 15, 'devfactor': 2.5}",-5.3356919199052495,-0.18437404523173595,33.30403817524112,2,50.0
+BBandsStrategy,"{'period': 20, 'devfactor': 1.5}",7.077248181145235,0.32186775083037833,27.377459229390663,5,80.0
+BBandsStrategy,"{'period': 20, 'devfactor': 2.0}",28.68509379833246,17.725198918430003,13.460599523160074,4,100.0
+BBandsStrategy,"{'period': 20, 'devfactor': 2.5}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+BBandsStrategy,"{'period': 25, 'devfactor': 1.5}",-0.1382050005601987,-0.02826653229419694,27.377459229390663,4,75.0
+BBandsStrategy,"{'period': 25, 'devfactor': 2.0}",17.38576000097276,1.7242525925765644,16.924367835486024,3,100.0
+BBandsStrategy,"{'period': 25, 'devfactor': 2.5}",28.788855544733273,16.25030570901312,11.712059888253293,3,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",11.8447213381619,0.8311484126218905,9.48506591736638,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",11.8447213381619,0.8311484126218905,9.48506591736638,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",11.8447213381619,0.8311484126218905,9.48506591736638,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",11.8447213381619,0.8311484126218905,9.48506591736638,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",21.714599742479955,3.9458354127410384,9.401106861051927,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",21.714599742479955,3.9458354127410384,9.401106861051927,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",21.714599742479955,3.9458354127410384,9.401106861051927,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",21.714599742479955,3.9458354127410384,9.401106861051927,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 10, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",21.67999222222221,0.9077490443954135,9.538317165908168,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",21.67999222222221,0.9077490443954135,9.538317165908168,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",11.8447213381619,0.8311484126218905,9.48506591736638,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",11.8447213381619,0.8311484126218905,9.48506591736638,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",40.66564898332192,3.040820621650738,9.538317165908168,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",40.66564898332192,3.040820621650738,9.538317165908168,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",21.714599742479955,3.9458354127410384,9.401106861051927,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",21.714599742479955,3.9458354127410384,9.401106861051927,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",34.47942084846716,4.846323364425205,11.882418501540275,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",34.47942084846716,4.846323364425205,11.882418501540275,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 14, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",16.438388053671215,1.488202481016295,11.712059888253298,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",21.67999222222221,0.9077490443954135,9.538317165908168,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",21.67999222222221,0.9077490443954135,9.538317165908168,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 15, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",40.66564898332192,3.040820621650738,9.538317165908168,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",40.66564898332192,3.040820621650738,9.538317165908168,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 20, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 70}",34.47942084846716,4.846323364425205,11.882418501540275,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 1.5, 'oversold': 30, 'overbought': 75}",34.47942084846716,4.846323364425205,11.882418501540275,2,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 70}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 25, 'overbought': 75}",0.0,,0.0,0,
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 70}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
+RsiBollingerBandsStrategy,"{'rsi_period': 20, 'bb_period': 25, 'bb_dev': 2.0, 'oversold': 30, 'overbought': 75}",19.15026888888891,0.8955628241251269,11.882418501540275,1,100.0
